@@ -1,6 +1,6 @@
 <template>
   <section>
-  <div class="flex flex-col justify-center items-center p-4 bg-pink-100">
+  <div class="flex flex-col justify-center items-center p-4 ">
     <div class="w-full max-w-4xl overflow-hidden p-5 ">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div class="flex flex-col items-center md:items-start">
