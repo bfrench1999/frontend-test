@@ -1,6 +1,22 @@
-# roosterGrinSite
+# Rooster Grin Frontend Mockup
 
-## Build Setup
+![Nuxt.js](https://img.shields.io/badge/nuxt.js-00C58E.svg?style=for-the-badge&logo=nuxt.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/vue.js-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Contentful](https://img.shields.io/badge/contentful-2478CC.svg?style=for-the-badge&logo=contentful&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-38B2AC.svg?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
+This project is a frontend mockup submission for Rooster Grin, designed to showcase a static site implementation with dynamic content management capabilities. Built with Nuxt and Vue.js, the site is styled with TailwindCSS for a responsive and modern design. Content management is facilitated through Contentful, allowing for easy updates and management of site content. Deployed on Vercel for seamless delivery and performance.
+
+## Features
+
+- **Nuxt.js & Vue.js**: Modern, powerful frameworks for building user interfaces and static site generation.
+- **TailwindCSS**: A utility-first CSS framework for creating custom designs without having to leave your HTML.
+- **Contentful CMS**: Integration with Contentful for easy content management and dynamic content updates.
+- **Responsive Design**: Fully responsive layout that works on mobile, tablet, and desktop.
+- **Vercel Deployment**: Fast and reliable hosting with automatic deployments from your GitHub repository.
+
+## Project Setup
 
 ```bash
 # install dependencies
@@ -15,55 +31,3 @@ $ npm run start
 
 # generate static project
 $ npm run generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
